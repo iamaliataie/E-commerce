@@ -22,6 +22,13 @@
     .content{
         height:79vh;
     }
+    .footer a{
+        text-decoration:none;
+        color:white;
+    }
+    .footer a:hover{
+        color:white;
+    }
     .search-box{
         width:100%;
         justify-content:center;
