@@ -1,9 +1,10 @@
 @extends('master')
 
 @section('content')
+<div class="login">
 <div class="container p-5">
     <div class="row">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-4 offset-md-4 pt-4">
         <form method="POST" action="login">
         @csrf
   <div class="form-group">
@@ -19,5 +20,6 @@
 </form>
         </div>
     </div>
+</div>
 </div>
 @endsection

@@ -13,14 +13,20 @@
 </head>
 <body>
     {{View::make('header')}}
-    <div class="content">
+
     @yield('content')
-    </div>
+
     {{View::make('footer')}}
 </body>
 <style>
-    .content{
-        height:79vh;
+    .product{
+        height:90vh !important;
+    }
+    .product-caption{
+        background-color:black;
+    }
+    .login{
+        height:75vh;
     }
     .footer a{
         text-decoration:none;
