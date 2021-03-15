@@ -33,7 +33,7 @@
         color:white;
     }
     .footer a:hover{
-        color:white;
+        color:lightgreen;
     }
     .search-box{
         width:100%;
@@ -41,6 +41,9 @@
     }
     .search-box input[type=search]{
         width:70%;
+    }
+    .details{
+        height:74vh;
     }
 </style>
 </html>
