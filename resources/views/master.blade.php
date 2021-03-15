@@ -19,8 +19,12 @@
     {{View::make('footer')}}
 </body>
 <style>
+    a{
+        text-decoration:none;
+        color:black;
+    }
     .product{
-        height:90vh !important;
+        height:91vh !important;
     }
     .product-caption{
         background-color:black;
@@ -44,6 +48,9 @@
     }
     .details{
         height:74vh;
+    }
+    .search-page{
+        min-height:74vh;
     }
 </style>
 </html>
