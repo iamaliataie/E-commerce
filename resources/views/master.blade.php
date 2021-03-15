@@ -52,5 +52,8 @@
     .search-page{
         min-height:74vh;
     }
+    .cartlist{
+        min-height:75vh;
+    }
 </style>
 </html>
