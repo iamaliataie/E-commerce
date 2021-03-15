@@ -15,7 +15,11 @@
                 </div>
                 <div class="buttons mt-5">
                     <button class="btn btn-success">Buy Now</button>
-                    <button class="btn btn-primary">Add to Cart</button>
+                    <form action="/add-to-cart" method="POST" class="mt-2">
+                        @csrf
+                        <input type="hidden" name="product_id" value="{{$product['id']}}">
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </form>
                 </div>
             </div>
         </div>
