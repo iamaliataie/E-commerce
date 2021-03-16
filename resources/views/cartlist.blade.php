@@ -16,7 +16,7 @@
                     <h5 class="align-middle">{{$item->description}}</h5>
                 </div>
                 <div class="col-md-4 pt-5">
-                    <a href="/removeitem" class="btn btn-danger float-right">Remove Item</a>
+                    <a href="/removecart/{{$item->cartId}}" class="btn btn-danger float-right">Remove Item</a>
                 </div>
             </div>
         </div>
