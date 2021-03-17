@@ -14,7 +14,6 @@
                     <span class="bg-info inline-block p-2 rounded text-white">{{$product['category']}}</span>
                 </div>
                 <div class="buttons mt-5">
-                    <button class="btn btn-success">Buy Now</button>
                     <form action="/add-to-cart" method="POST" class="mt-2">
                         @csrf
                         <input type="hidden" name="product_id" value="{{$product['id']}}">

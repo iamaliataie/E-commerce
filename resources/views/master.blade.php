@@ -47,10 +47,10 @@
         width:70%;
     }
     .details{
-        height:74vh;
+        height:75vh;
     }
     .search-page{
-        min-height:74vh;
+        min-height:75vh;
     }
     .cartlist,.order-now{
         min-height:75vh;

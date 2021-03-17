@@ -110,4 +110,10 @@ class ProductController extends Controller
         ->get();
         return view('myorder',['orders'=>$orderlist]);
     }
+
+    static function orderItem()
+    {
+        $userId = Session::get('user')['id'];
+        return Order::where('user_id',$userId)->count();
+    }
 }
