@@ -2,6 +2,9 @@
 @section('content')
 <div class="cartlist py-5">
     <div class="container ">
+    <div class="order-button">
+        <a href="/ordernow" class="btn btn-success ml-3">Order Now</a>
+    </div>
     @if(!Session()->has('user'))
         
     @endif

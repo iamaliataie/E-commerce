@@ -52,7 +52,7 @@
     .search-page{
         min-height:74vh;
     }
-    .cartlist{
+    .cartlist,.order-now{
         min-height:75vh;
     }
 </style>
