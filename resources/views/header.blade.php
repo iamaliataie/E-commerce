@@ -41,9 +41,12 @@ $total = ProductController::cartItem();
         </div>
       </li>
       @else
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ">
         <li class="nav-item">
           <a class="nav-link active" href="login">Login</a>
+        </li>
+        <li>
+        <a class="nav-link active" href="register">Sign up</a>
         </li>
       </ul>
       @endif

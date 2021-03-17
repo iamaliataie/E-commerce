@@ -40,11 +40,11 @@
         color:lightgreen;
     }
     .search-box{
-        width:100%;
+        width:70%;
         justify-content:center;
     }
     .search-box input[type=search]{
-        width:70%;
+        width:80%;
     }
     .details{
         height:75vh;
