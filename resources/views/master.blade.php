@@ -55,5 +55,12 @@
     .cartlist,.order-now{
         min-height:75vh;
     }
+
+    .logo-img{
+        width:100%;
+    }
+    .logo-link{
+        width:70px;
+    }
 </style>
 </html>
